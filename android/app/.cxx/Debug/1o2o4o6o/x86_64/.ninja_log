@@ -1,0 +1,9 @@
+# ninja log v5
+0	66	702572684	CMakeFiles/native_add.dir/D_/android-studio/penteract/connect_flutter_to_cpp_ex3/ios/cpp/check_connect/check_connect_native.cpp.o	153e0804bfa8bac1
+66	169	702572684	D:/android-studio/penteract/connect_flutter_to_cpp_ex3/build/app/intermediates/cxx/Debug/1o2o4o6o/obj/x86_64/libnative_add.so	76702e76ea5c8fa6
+1	56	702573193	CMakeFiles/native_add.dir/D_/android-studio/penteract/connect_flutter_to_cpp_ex3/ios/cpp/check_connect/check_connect_native.cpp.o	153e0804bfa8bac1
+56	149	702573193	D:/android-studio/penteract/connect_flutter_to_cpp_ex3/build/app/intermediates/cxx/Debug/1o2o4o6o/obj/x86_64/libnative_add.so	76702e76ea5c8fa6
+1	44	702573359	CMakeFiles/native_add.dir/D_/android-studio/penteract/connect_flutter_to_cpp_ex3/ios/cpp/check_connect/check_connect_native.cpp.o	153e0804bfa8bac1
+44	120	702573359	D:/android-studio/penteract/connect_flutter_to_cpp_ex3/build/app/intermediates/cxx/Debug/1o2o4o6o/obj/x86_64/libnative_add.so	76702e76ea5c8fa6
+1	52	702573392	CMakeFiles/native_add.dir/D_/android-studio/penteract/connect_flutter_to_cpp_ex3/ios/cpp/check_connect/check_connect_native.cpp.o	153e0804bfa8bac1
+53	132	702573392	D:/android-studio/penteract/connect_flutter_to_cpp_ex3/build/app/intermediates/cxx/Debug/1o2o4o6o/obj/x86_64/libnative_add.so	76702e76ea5c8fa6

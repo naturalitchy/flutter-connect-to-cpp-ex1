@@ -1,0 +1,7 @@
+Executable : C:\Users\nsubw\AppData\Local\Android\sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+D:\android-studio\penteract\connect_flutter_to_cpp_ex3\android\app\.cxx\Debug\1o2o4o6o\x86_64
+native_add
+jvmArgs : 
+

@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "D:\\android-studio\\penteract\\connect_flutter_to_cpp_ex3\\android\\app\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\nsubw\\AppData\\Local\\Android\\sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+      "-C",
+      "D:\\android-studio\\penteract\\connect_flutter_to_cpp_ex3\\android\\app\\.cxx\\Debug\\1o2o4o6o\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\nsubw\\AppData\\Local\\Android\\sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-C",
+    "D:\\android-studio\\penteract\\connect_flutter_to_cpp_ex3\\android\\app\\.cxx\\Debug\\1o2o4o6o\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native_add::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "native_add",
+      "output": "D:\\android-studio\\penteract\\connect_flutter_to_cpp_ex3\\build\\app\\intermediates\\cxx\\Debug\\1o2o4o6o\\obj\\x86_64\\libnative_add.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "C:\\Users\\nsubw\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\nsubw\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
