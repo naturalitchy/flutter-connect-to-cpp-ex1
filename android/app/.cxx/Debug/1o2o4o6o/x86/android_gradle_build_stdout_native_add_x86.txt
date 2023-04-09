@@ -1,3 +1,2 @@
 ninja: Entering directory `D:\android-studio\penteract\connect_flutter_to_cpp_ex3\android\app\.cxx\Debug\1o2o4o6o\x86'
-[1/2] Building CXX object CMakeFiles/native_add.dir/D_/android-studio/penteract/connect_flutter_to_cpp_ex3/ios/cpp/check_connect/check_connect_native.cpp.o
-[2/2] Linking CXX shared library D:\android-studio\penteract\connect_flutter_to_cpp_ex3\build\app\intermediates\cxx\Debug\1o2o4o6o\obj\x86\libnative_add.so
+ninja: no work to do.

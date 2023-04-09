@@ -14,5 +14,5 @@ CheckConnect::~CheckConnect() {
 
 bool CheckConnect::isConnected() {
 
-    return false;
+    return true;
 }

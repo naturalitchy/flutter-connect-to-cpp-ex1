@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:ffi'; // For FFI
 import 'dart:io'; // For Platform.isX
 
@@ -10,3 +11,11 @@ final int Function() checkConnectDart =
   .lookup<NativeFunction<Int32 Function()>>("native_add")
   .asFunction();
 
+
+/*
+typedef GetStringFunc = Pointer Function();
+typedef GetString = Pointer Function();
+
+final hello = nativeAddLib.
+  lookupFunction<GetStringFunc, GetString>('native_add');
+*/
