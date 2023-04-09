@@ -24,11 +24,14 @@ class MainScreen extends StatelessWidget {
                 if (true) Text('World'),
                 Text('Flutter'),
                 Container(
-                  child: Text(
-                    if() return 'LLLLLL';
-                    else return 'wwdawfasf';
-                  ),
-                )
+                  child: (() {
+                    if (true) {
+                      return Text('Hello');
+                    } else {
+                      return Text('World');
+                    }
+                  })(),
+                ),
               ],
             )
 

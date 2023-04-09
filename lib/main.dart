@@ -16,6 +16,11 @@ import 'package:flutter/material.dart';
  * 예로, 버튼의 텍스트값, 슬라이더의 값 등.
  */
 
+/**
+ * 어떠한 함수를 만든다. 그리고 그 함수를 child에서 콜하는 식으로 간다.
+ * 또한, 지금해놓은 방식처럼 해보던가.
+ */
+
 void main() {
   runApp(
     MaterialApp(
