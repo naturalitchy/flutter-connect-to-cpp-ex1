@@ -1,3 +1,4 @@
 D:/android-studio/penteract/connect_flutter_to_cpp_ex3/android/app/.cxx/Debug/1o2o4o6o/x86/CMakeFiles/native_add.dir
+D:/android-studio/penteract/connect_flutter_to_cpp_ex3/android/app/.cxx/Debug/1o2o4o6o/x86/CMakeFiles/SHARED.dir
 D:/android-studio/penteract/connect_flutter_to_cpp_ex3/android/app/.cxx/Debug/1o2o4o6o/x86/CMakeFiles/edit_cache.dir
 D:/android-studio/penteract/connect_flutter_to_cpp_ex3/android/app/.cxx/Debug/1o2o4o6o/x86/CMakeFiles/rebuild_cache.dir

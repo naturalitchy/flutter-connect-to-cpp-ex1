@@ -5,6 +5,7 @@ import 'package:connect_flutter_to_cpp_ex3/const/const_var.dart';
 import 'package:connect_flutter_to_cpp_ex3/screen/bottom_nav/home_screen.dart';
 import 'package:connect_flutter_to_cpp_ex3/screen/bottom_nav/setting_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:connect_flutter_to_cpp_ex3/cpp/slider_test/slider_test.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({Key? key}) : super(key: key);
@@ -21,13 +22,18 @@ class _MainScreenState extends State<MainScreen> with TickerProviderStateMixin {
 
   // SettingScreen => execute when slider changed.
   void onPitchChanged(double val) {
-    sliderChangeCheck();
+    if(!sliderChangeCheck()) {
+      return;
+    }
     setState(() {
       pitch = val;
+      sliderTest(30);
     });
   }
   void onRollChanged(double val) {
-    sliderChangeCheck();
+    if(!sliderChangeCheck()) {
+      return;
+    }
     setState(() {
       roll = val;
     });

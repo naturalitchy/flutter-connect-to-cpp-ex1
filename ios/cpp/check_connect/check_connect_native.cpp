@@ -6,7 +6,7 @@
 #include "check_connect.cpp"
 
 extern "C" __attribute__((visibility("default"))) __attribute__((used))
-bool native_add() {
+bool comPortConnect() {
     CheckConnect checkConnect;
     bool connected = checkConnect.isConnected();
 

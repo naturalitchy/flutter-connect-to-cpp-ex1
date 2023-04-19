@@ -70,6 +70,37 @@ build D$:/android-studio/penteract/connect_flutter_to_cpp_ex3/build/app/intermed
   TARGET_FILE = D:\android-studio\penteract\connect_flutter_to_cpp_ex3\build\app\intermediates\cxx\Debug\1o2o4o6o\obj\arm64-v8a\libnative_add.so
   TARGET_PDB = native_add.so.dbg
 
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target SHARED
+
+
+#############################################
+# Order-only phony target for SHARED
+
+build cmake_object_order_depends_target_SHARED: phony || CMakeFiles/SHARED.dir
+
+build CMakeFiles/SHARED.dir/D_/android-studio/penteract/connect_flutter_to_cpp_ex3/ios/cpp/slider/slider_native.cpp.o: CXX_COMPILER__SHARED_Debug D$:/android-studio/penteract/connect_flutter_to_cpp_ex3/ios/cpp/slider/slider_native.cpp || cmake_object_order_depends_target_SHARED
+  DEP_FILE = CMakeFiles\SHARED.dir\D_\android-studio\penteract\connect_flutter_to_cpp_ex3\ios\cpp\slider\slider_native.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\SHARED.dir
+  OBJECT_FILE_DIR = CMakeFiles\SHARED.dir\D_\android-studio\penteract\connect_flutter_to_cpp_ex3\ios\cpp\slider
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target SHARED
+
+
+#############################################
+# Link the static library libSHARED.a
+
+build libSHARED.a: CXX_STATIC_LIBRARY_LINKER__SHARED_Debug CMakeFiles/SHARED.dir/D_/android-studio/penteract/connect_flutter_to_cpp_ex3/ios/cpp/slider/slider_native.cpp.o
+  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info
+  OBJECT_DIR = CMakeFiles\SHARED.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = libSHARED.a
+  TARGET_PDB = SHARED.a.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -96,6 +127,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build SHARED: phony libSHARED.a
+
 build libnative_add.so: phony D$:/android-studio/penteract/connect_flutter_to_cpp_ex3/build/app/intermediates/cxx/Debug/1o2o4o6o/obj/arm64-v8a/libnative_add.so
 
 build native_add: phony D$:/android-studio/penteract/connect_flutter_to_cpp_ex3/build/app/intermediates/cxx/Debug/1o2o4o6o/obj/arm64-v8a/libnative_add.so
@@ -108,7 +141,7 @@ build native_add: phony D$:/android-studio/penteract/connect_flutter_to_cpp_ex3/
 #############################################
 # Folder: D:/android-studio/penteract/connect_flutter_to_cpp_ex3/android/app/.cxx/Debug/1o2o4o6o/arm64-v8a
 
-build all: phony D$:/android-studio/penteract/connect_flutter_to_cpp_ex3/build/app/intermediates/cxx/Debug/1o2o4o6o/obj/arm64-v8a/libnative_add.so
+build all: phony D$:/android-studio/penteract/connect_flutter_to_cpp_ex3/build/app/intermediates/cxx/Debug/1o2o4o6o/obj/arm64-v8a/libnative_add.so libSHARED.a
 
 # =============================================================================
 # Built-in targets
