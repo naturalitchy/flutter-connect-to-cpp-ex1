@@ -13,6 +13,6 @@ class Slider {
         ~Slider();
         int sliderValue(int x);
 
-}
+};
 
 #endif //CONNECT_FLUTTER_TO_CPP_EX3_SLIDER_H

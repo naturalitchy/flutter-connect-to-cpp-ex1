@@ -26,8 +26,8 @@ class _MainScreenState extends State<MainScreen> with TickerProviderStateMixin {
       return;
     }
     setState(() {
-      pitch = val;
-      sliderTest(30);
+      // pitch = val;
+      pitch = sliderTest(val.toInt()).toDouble();
     });
   }
   void onRollChanged(double val) {

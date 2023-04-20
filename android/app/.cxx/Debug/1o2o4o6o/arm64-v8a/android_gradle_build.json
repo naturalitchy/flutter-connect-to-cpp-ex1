@@ -17,12 +17,6 @@
     "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
-    "SHARED::@6890427a1f51a3e7e1df": {
-      "toolchain": "toolchain",
-      "abi": "arm64-v8a",
-      "artifactName": "SHARED",
-      "output": "D:\\android-studio\\penteract\\connect_flutter_to_cpp_ex3\\android\\app\\.cxx\\Debug\\1o2o4o6o\\arm64-v8a\\libSHARED.a"
-    },
     "native_add::@6890427a1f51a3e7e1df": {
       "toolchain": "toolchain",
       "abi": "arm64-v8a",

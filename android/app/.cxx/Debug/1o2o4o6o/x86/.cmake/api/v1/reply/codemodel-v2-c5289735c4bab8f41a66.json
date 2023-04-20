@@ -14,8 +14,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -30,8 +29,7 @@
 					"name" : "Project",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -39,15 +37,8 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "SHARED::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SHARED-Debug-c396c80ff93794af7291.json",
-					"name" : "SHARED",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
 					"id" : "native_add::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-native_add-Debug-3df307d575821711f9dd.json",
+					"jsonFile" : "target-native_add-Debug-afeb853e415e307e2668.json",
 					"name" : "native_add",
 					"projectIndex" : 0
 				}
@@ -57,7 +48,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/android-studio/penteract/connect_flutter_to_cpp_ex3/android/app/.cxx/Debug/1o2o4o6o/arm64-v8a",
+		"build" : "D:/android-studio/penteract/connect_flutter_to_cpp_ex3/android/app/.cxx/Debug/1o2o4o6o/x86",
 		"source" : "D:/android-studio/penteract/connect_flutter_to_cpp_ex3/android/app"
 	},
 	"version" : 

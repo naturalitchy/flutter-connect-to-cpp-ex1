@@ -84,6 +84,9 @@ class SettingScreen extends StatelessWidget {
               ),
             ],
           ),
+          const SizedBox(height: 50,),
+
+          Text('value = ${pitch}'),
 
         ],
       ),

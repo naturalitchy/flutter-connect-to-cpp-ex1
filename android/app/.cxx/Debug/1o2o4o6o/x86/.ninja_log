@@ -27,3 +27,9 @@
 88	201	703613015	D:/android-studio/penteract/connect_flutter_to_cpp_ex3/build/app/intermediates/cxx/Debug/1o2o4o6o/obj/x86/libnative_add.so	aaca1e0697a26bec
 1	71	703614035	CMakeFiles/native_add.dir/D_/android-studio/penteract/connect_flutter_to_cpp_ex3/ios/cpp/check_connect/check_connect_native.cpp.o	7f2406aa6d88eec6
 71	211	703614035	D:/android-studio/penteract/connect_flutter_to_cpp_ex3/build/app/intermediates/cxx/Debug/1o2o4o6o/obj/x86/libnative_add.so	aaca1e0697a26bec
+1	94	703619303	CMakeFiles/sliderTest.dir/D_/android-studio/penteract/connect_flutter_to_cpp_ex3/ios/cpp/slider/slider_native.cpp.o	c150ab1762d751c
+94	201	703619303	D:/android-studio/penteract/connect_flutter_to_cpp_ex3/build/app/intermediates/cxx/Debug/1o2o4o6o/obj/x86/libsliderTest.so	536e1641bbb43b2a
+1	91	703619848	CMakeFiles/native_add.dir/D_/android-studio/penteract/connect_flutter_to_cpp_ex3/ios/cpp/check_connect/check_connect_native.cpp.o	7f2406aa6d88eec6
+91	226	703619848	D:/android-studio/penteract/connect_flutter_to_cpp_ex3/build/app/intermediates/cxx/Debug/1o2o4o6o/obj/x86/libnative_add.so	aaca1e0697a26bec
+0	69	703658432	CMakeFiles/native_add.dir/D_/android-studio/penteract/connect_flutter_to_cpp_ex3/ios/cpp/check_connect/check_connect_native.cpp.o	7f2406aa6d88eec6
+70	190	703658432	D:/android-studio/penteract/connect_flutter_to_cpp_ex3/build/app/intermediates/cxx/Debug/1o2o4o6o/obj/x86/libnative_add.so	aaca1e0697a26bec
